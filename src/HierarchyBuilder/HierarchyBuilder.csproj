@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Summary>A utilitiy to transform list into hiearchy trees and transform data</Summary>
+        <Description>A utilitiy to transform list into hiearchy trees and transform data</Description>
+        <TargetFrameworks>$(DefaultNetFxTargetFramework);netstandard2.0;$(DefaultNetCoreTargetFramework)</TargetFrameworks>
+        <TargetFrameworks Condition="'$(DotNetBuildSourceOnly)' == 'true'">$(DefaultNetCoreTargetFramework)</TargetFrameworks>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <AssemblyName>HierarchyBuilder</AssemblyName>
+        <PackageId>HierarchyBuilder</PackageId>
+        <PackageIcon>icon.png</PackageIcon>
+        <PackageProjectUrl>https://github.com/lasrol/HierarchyBuilder</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>Utility</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+</Project>

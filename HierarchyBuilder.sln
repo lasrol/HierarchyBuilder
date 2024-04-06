@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchyBuilder", "src\HierarchyBuilder\HierarchyBuilder.csproj", "{6D1D4C29-8C5D-4796-BE7E-B24E91B0213D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28559EF7-15E3-44CE-B94B-061A957AE644}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{930FCDC2-34CE-4C6C-9BAF-EB59A7ECBCF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchyBuilder.UnitTest", "test\HierarchyBuilder.UnitTest\HierarchyBuilder.UnitTest.csproj", "{E5965772-D208-4082-A1ED-12BBBB4D89AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D1D4C29-8C5D-4796-BE7E-B24E91B0213D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1D4C29-8C5D-4796-BE7E-B24E91B0213D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1D4C29-8C5D-4796-BE7E-B24E91B0213D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1D4C29-8C5D-4796-BE7E-B24E91B0213D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5965772-D208-4082-A1ED-12BBBB4D89AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5965772-D208-4082-A1ED-12BBBB4D89AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5965772-D208-4082-A1ED-12BBBB4D89AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5965772-D208-4082-A1ED-12BBBB4D89AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D1D4C29-8C5D-4796-BE7E-B24E91B0213D} = {28559EF7-15E3-44CE-B94B-061A957AE644}
+		{E5965772-D208-4082-A1ED-12BBBB4D89AB} = {930FCDC2-34CE-4C6C-9BAF-EB59A7ECBCF9}
+	EndGlobalSection
+EndGlobal
