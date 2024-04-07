@@ -28,7 +28,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build -c Release --verbosity normal
     - name: Create packages
-      run: dotnet pack --no-build -c Release --no-restore -o .\artifacts
+      run: dotnet pack --no-build -c Release --no-restore -o artifacts
     - name: Artifacts
       uses: actions/upload-artifact@v2
       with:
