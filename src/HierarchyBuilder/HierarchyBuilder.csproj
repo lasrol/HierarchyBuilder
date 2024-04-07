@@ -1,22 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <Summary>A utilitiy to transform list into hiearchy trees and transform data</Summary>
-        <Description>A utilitiy to transform list into hiearchy trees and transform data</Description>
-        <TargetFrameworks>$(DefaultNetFxTargetFramework);netstandard2.0;$(DefaultNetCoreTargetFramework)</TargetFrameworks>
-        <TargetFrameworks Condition="'$(DotNetBuildSourceOnly)' == 'true'">$(DefaultNetCoreTargetFramework)</TargetFrameworks>
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <AssemblyName>HierarchyBuilder</AssemblyName>
-        <PackageId>HierarchyBuilder</PackageId>
-        <PackageIcon>icon.png</PackageIcon>
-        <PackageProjectUrl>https://github.com/lasrol/HierarchyBuilder</PackageProjectUrl>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageTags>Utility</PackageTags>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    </PropertyGroup>
+  <PropertyGroup>
+    <Summary>A utilitiy to transform list into hiearchy trees and transform data</Summary>
+    <Description>A utilitiy to transform list into hiearchy trees and transform data</Description>
+    <TargetFrameworks>$(DefaultNetFxTargetFramework);netstandard2.0;$(DefaultNetCoreTargetFramework)</TargetFrameworks>
+    <TargetFrameworks Condition="'$(DotNetBuildSourceOnly)' == 'true'">$(DefaultNetCoreTargetFramework)</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <MinVerDefaultPreReleaseIdentifiers>preview.0</MinVerDefaultPreReleaseIdentifiers>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <AssemblyName>HierarchyBuilder</AssemblyName>
+    <PackageId>HierarchyBuilder</PackageId>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/lasrol/HierarchyBuilder</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Utility</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="" Visible="False" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="" Visible="False" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="" Visible="False"/>
+    <None Include="..\..\README.md" Pack="true" PackagePath="" Visible="False"/>
   </ItemGroup>
 </Project>
